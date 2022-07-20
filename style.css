@@ -12,10 +12,26 @@ body {
 @media (max-width: 400px) {
   h1,
   h2,
-  h3 {
+  h3,
+  p,
+  .navigation-links,
+  .navigation-links a,
+  .contact-link,
+  .about-link,
+  .homepage-link,
+  .about-paragraphs,
+  .about-paragraphs p,
+  .email-link,
+  .email-link:hover {
     text-align: center;
-    margin: 0;
   }
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
