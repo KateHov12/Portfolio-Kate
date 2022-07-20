@@ -9,11 +9,13 @@ body {
   max-width: 800px;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
+@media (max-width: 600px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
 }
 
 h1 {
